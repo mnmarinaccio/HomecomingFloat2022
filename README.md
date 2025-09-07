@@ -2,6 +2,14 @@
 
 This repository contains the code used to automate and bring the Back to the Future themed float to life for Clemson University homecoming in Fall 2022.
 
+<p align="center">
+  <img src="images/main_img.jpg"/>
+</p>
+
+<p align="center">
+  <img src="images/walkthrough.gif"/>
+</p>
+
 ---
 
 ## Table of Contents
@@ -15,8 +23,40 @@ This repository contains the code used to automate and bring the Back to the Fut
 
 ---
 
+## Arduino Dependencies
+This project uses the [FastLED](https://github.com/FastLED/FastLED) library for controlling WS2812B LEDs individually addressable LEDs. 
+
+Install it via the Arduino Library Manager:
+- Open Arduino IDE
+- Go to **Sketch → Include Library → Manage Libraries**
+- Search for **FastLED** and install
+
+## Python Requirements
+
+This project depends on the following Python packages:
+
+- `pygame`
+- `pyserial`
+
+You can install them with:
+
+pip install -r requirements.txt
+
 
 ## Example / Screenshots
+
+<p align="center">
+  <img src="images/night_gif.gif"/>
+</p>
+
+<p align="center">
+  <img src="images/night_led.gif"/>
+</p>
+
+<p align="center">
+  <img src="images/electrictrail_vid.gif"/>
+</p>
+
 
 ## How It Works
 
